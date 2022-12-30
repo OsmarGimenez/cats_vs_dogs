@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fav-animal{
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+h1{
+    color: white;
+    font-weight: bolder;
+}
+
+.main{
+    width: 500px;
+    height: 400px;
+    background-color: silver;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    width: 300px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    font-size: large;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px black;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-cat{
+    background-color: orange;
+}
+#btn-dog{
+    background-color: green;
+}
